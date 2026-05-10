@@ -10,6 +10,12 @@
       "source": "./plugins/hello-world",
       "description": "예시 스킬 플러그인",
       "version": "1.0.0"
+    },
+    {
+      "name": "research-helper",
+      "source": "./plugins/research-helper",
+      "description": "구현 계획 수립부터 테스트 검증까지 자동화하는 플러그인",
+      "version": "1.0.0"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "name": "hello-world",
+  "name": "research-helper",
   "version": "1.0.0",
-  "description": "첫 번째 예시 플러그인 - 여기에 설명을 작성하세요",
+  "description": "연구 및 개발 보조 플러그인 - 구현 계획 수립부터 검증까지 자동화",
   "author": {
     "name": "Sihun Cha",
     "email": "sihun.cha@gmail.com"

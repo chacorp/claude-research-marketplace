@@ -5,26 +5,48 @@
 ## 설치 방법
 
 ```bash
-/plugin marketplace add sihun-cha/claude-research-marketplace
+/plugin marketplace add chacorp/claude-research-marketplace
 ```
 
 ## 플러그인 목록
 
-| 이름 | 설명 |
+### `hello-world`
+예시 스킬 플러그인입니다.
+
+| 스킬 | 설명 |
 |------|------|
-| `hello-world` | 예시 스킬 플러그인 |
+| `hello-world` | 이름을 받아 친근하게 인사합니다. |
 
-## 플러그인 사용법
+### `research-helper`
+구현 계획 수립부터 테스트 검증까지 자동화하는 플러그인입니다.
 
-마켓플레이스 추가 후:
+| 스킬 | 설명 |
+|------|------|
+| `implement` | 요청을 요약하고 구현 계획·검증 계획을 설계해 승인 후 구현 및 테스트 검증 루프를 수행합니다. 검증은 subagent가 테스트 코드로 진행하며, 최대 N회 루프 후 통과해야 완료 처리됩니다. |
+
+## 플러그인 설치 방법
+
+**1. 마켓플레이스 등록**
+
+```bash
+/plugin marketplace add chacorp/claude-research-marketplace
+```
+
+**2. 플러그인 설치**
 
 ```bash
 /plugin install hello-world@sihun-marketplace
+/plugin install research-helper@sihun-marketplace
 ```
 
-설치 후 스킬 사용:
+**3. 스킬 사용**
+
 ```bash
+# hello-world 플러그인
 /hello-world:hello-world 이름
+
+# research-helper 플러그인
+/research-helper:implement 구현할 내용
 ```
 
 ## 새 플러그인 추가하기
