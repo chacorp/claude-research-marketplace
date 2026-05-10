@@ -1,0 +1,12 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "첫 번째 예시 플러그인 - 여기에 설명을 작성하세요",
+  "author": {
+    "name": "Sihun Cha",
+    "email": "sihun.cha@gmail.com"
+  },
+  "repository": "https://github.com/sihun-cha/claude-research-marketplace",
+  "license": "MIT",
+  "skills": "./skills/"
+}

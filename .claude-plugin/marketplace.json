@@ -1,0 +1,15 @@
+{
+  "name": "claude-research-marketplace",
+  "owner": {
+    "name": "Sihun Cha",
+    "email": "sihun.cha@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "hello-world",
+      "source": "./plugins/hello-world",
+      "description": "예시 스킬 플러그인",
+      "version": "1.0.0"
+    }
+  ]
+}
